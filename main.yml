@@ -2,4 +2,4 @@
 -name: test ansible tower
  hosts: mfs_node
  tasks:
-  -shell: echo"{{echovar}}"
+   -shell: echo"{{echovar}}"
