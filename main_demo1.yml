@@ -1,0 +1,5 @@
+- name: test ansible tower
+  hosts: mfs_node
+  remote_user: root
+  tasks: 
+     - shell: echo "{{ echovar }}"
